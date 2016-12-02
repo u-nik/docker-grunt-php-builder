@@ -1,4 +1,4 @@
-FROM php:5-cli
+FROM dockerizr/php:5.6-cli
 
 ENV COMPOSER_CACHE_DIR /composer-cache
 ENV COMPOSER_ALLOW_SUPERUSER 1
