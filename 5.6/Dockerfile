@@ -2,7 +2,7 @@ FROM dockerizr/php:5.6-cli
 
 ENV COMPOSER_CACHE_DIR /composer-cache
 ENV COMPOSER_ALLOW_SUPERUSER 1
-ENV PHPUNIT_VERSION 5.6.7
+ENV PHPUNIT_VERSION 5.7.27
 
 # Install ZIP Extension
 RUN apt-get update \
