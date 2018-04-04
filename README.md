@@ -1,5 +1,7 @@
 # docker-grunt-php-builder
-An image to build PHP (5.6/7) applications with grunt task runner
+[![Build Status](https://travis-ci.org/u-nik/docker-grunt-php-builder.svg?branch=master)](https://travis-ci.org/u-nik/docker-grunt-php-builder)
+
+An image to build PHP (5.6/7.x) applications with the Grunt task runner
 
 ## Usage
 To run the build image, you must have already created a `Gruntfile.js` in a source directory.
