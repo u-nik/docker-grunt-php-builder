@@ -8,8 +8,6 @@ ENV PHPUNIT_VERSION 7.0.3
 RUN apt-get update \
     && apt-get install -y \
         git \
-        libmcrypt4 \
-        libmcrypt-dev \
         libcurl4-openssl-dev \
         libpng-dev \
         libpq5 \
@@ -31,7 +29,6 @@ RUN apt-get update \
         iconv \
         json \
         mbstring \
-        mcrypt \
         pcntl \
         pdo \
         pdo_mysql \
@@ -50,7 +47,6 @@ RUN apt-get update \
 
     # Cleanup
     && apt-get remove -y \
-        libmcrypt-dev \
         libcurl4-openssl-dev \
         libpng-dev \
         libpq-dev \
